@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bali Pre-MBA Trip - 30 Nov to 5 Dec 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@350;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#251f21;--ink2:#585254;--sand:#f4efec;--teal:#73a89a;--teal-d:#4e7d70;--hair:#eae9ea;--red:#c93440;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;font-weight:350;color:var(--ink);background:var(--sand);line-height:1.65;font-size:16px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(160deg,#1d3a34,#2f5d52 55%,#73a89a);color:#fff;padding:72px 0 56px}
+.hero .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:600;opacity:.75}
+.hero h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(34px,6vw,52px);line-height:1.1;margin:14px 0 18px}
+.hero p{max-width:560px;opacity:.92;font-size:17px}
+.hero .dates{display:inline-block;margin-top:22px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:8px 18px;font-size:14px;font-weight:400}
+nav.daynav{position:sticky;top:0;z-index:10;background:rgba(244,239,236,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--hair);overflow-x:auto;white-space:nowrap;padding:10px 0}
+nav.daynav a{display:inline-block;padding:6px 12px;color:var(--ink2);text-decoration:none;font-size:13.5px;border-radius:999px}
+nav.daynav a:hover{background:#fff;color:var(--ink)}
+section{padding:44px 0 8px}
+h2{font-family:'Fraunces',serif;font-weight:400;font-size:28px;margin-bottom:6px}
+.sub{color:var(--ink2);font-size:14.5px;margin-bottom:22px}
+.card{background:#fff;border-radius:20px;padding:24px;margin-bottom:16px;box-shadow:0 1px 2px rgba(37,31,33,.05)}
+.day-head{display:flex;align-items:baseline;gap:12px;margin-bottom:10px;flex-wrap:wrap}
+.day-head .dnum{font-family:'Fraunces',serif;font-size:15px;color:var(--teal-d);font-weight:600}
+.day-head h3{font-family:'Fraunces',serif;font-weight:600;font-size:20px}
+.day-head .tag{margin-left:auto;font-size:12px;color:var(--ink2);background:var(--sand);border-radius:999px;padding:4px 12px}
+ul.tl{list-style:none;margin-top:6px}
+ul.tl li{padding:9px 0 9px 22px;position:relative;border-bottom:1px solid var(--hair);font-size:15px}
+ul.tl li:last-child{border-bottom:none}
+ul.tl li::before{content:"";position:absolute;left:2px;top:16px;width:8px;height:8px;border-radius:50%;background:var(--teal)}
+ul.tl li b{font-weight:600}
+.warn{border-left:3px solid #d8a13a;background:#fbf5ea;border-radius:0 12px 12px 0;padding:14px 16px;font-size:14.5px;margin:14px 0;color:#5c4a1f}
+.warn.red{border-color:var(--red);background:#fdf0f1;color:#6e1f26}
+table{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:8px}
+th{text-align:left;font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink2);padding:8px 10px;border-bottom:1px solid var(--hair)}
+td{padding:10px;border-bottom:1px solid var(--hair);vertical-align:top}
+td.num,th.num{text-align:right;font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:620px){.grid2{grid-template-columns:1fr}}
+.fact{background:#fff;border-radius:16px;padding:16px 18px}
+.fact .k{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink2);font-weight:600;margin-bottom:4px}
+.fact .v{font-size:15.5px;font-weight:400}
+.map-frame{border-radius:20px;overflow:hidden;border:1px solid var(--hair);margin-bottom:14px}
+.map-frame iframe{width:100%;height:380px;border:0;display:block}
+ol.venues{list-style:none;counter-reset:v}
+ol.venues li{counter-increment:v;padding:10px 0 10px 38px;position:relative;border-bottom:1px solid var(--hair);font-size:15px}
+ol.venues li:last-child{border-bottom:none}
+ol.venues li::before{content:counter(v);position:absolute;left:0;top:11px;width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;font-size:12.5px;font-weight:600;display:flex;align-items:center;justify-content:center}
+ol.venues a{color:var(--teal-d);text-decoration:none;font-weight:600}
+ol.venues a:hover{text-decoration:underline}
+ol.venues .area{color:var(--ink2);font-size:13.5px}
+
+@media(max-width:620px){
+  table,thead,tbody,tr,td,th{display:block;width:100%}
+  thead{display:none}
+  table tr:has(th){display:none}
+  tr{border-bottom:1px solid var(--hair);padding:10px 0}
+  tr:last-child{border-bottom:none}
+  td{border-bottom:none;padding:2px 0}
+  td.num{text-align:left;font-size:16px;color:var(--teal-d);padding-top:4px}
+  td.num::before{content:"Per person: ";font-weight:400;font-size:12.5px;color:var(--ink2)}
+  table td:first-child{font-weight:600}
+  table tr td:nth-child(2){color:var(--ink2);font-size:13.5px}
+  .villa-table td.num::before{content:""}
+}
+footer{padding:36px 0 60px;color:var(--ink2);font-size:13.5px;border-top:1px solid var(--hair);margin-top:40px}
+.pill{display:inline-block;background:#fff;border:1px solid var(--hair);border-radius:999px;padding:3px 12px;font-size:12.5px;color:var(--ink2);margin:2px 4px 2px 0}
+</style>
+</head>
+<body>
+
+<div class="hero"><div class="wrap">
+  <div class="kicker">Pre-MBA trip - group plan</div>
+  <h1>Bali, 30 November - 5 December 2026</h1>
+  <p>Six days with the class in Seminyak: a big private villa, an Ubud adventure day, two beach-club days and a sunset finale at Savaya. This page walks through the whole plan as it stands today - what happens when, where we stay, what it costs, and what is still undecided.</p>
+  <div class="dates">Mon 30 Nov - Sat 5 Dec - Seminyak, Bali</div>
+</div></div>
+
+<nav class="daynav"><div class="wrap">
+  <a href="#glance">At a glance</a><a href="#day1">Day 1</a><a href="#day2">Day 2</a><a href="#day3">Day 3</a><a href="#day4">Day 4</a><a href="#day5">Day 5</a><a href="#day6">Day 6</a><a href="#stay">Stay</a><a href="#costs">Costs</a><a href="#map">Map</a><a href="#open">Open items</a>
+</div></nav>
+
+<section id="glance"><div class="wrap">
+  <h2>The trip at a glance</h2>
+  <p class="sub">From the group's live planning sheet, read 21 Oct 2026.</p>
+  <div class="grid2">
+    <div class="fact"><div class="k">When</div><div class="v">Mon 30 Nov - Sat 5 Dec 2026, five nights</div></div>
+    <div class="fact"><div class="k">Where</div><div class="v">Seminyak, Bali - with day trips to Ubud and Uluwatu</div></div>
+    <div class="fact"><div class="k">Who</div><div class="v">A group of MBA classmates, plus a couple of partners</div></div>
+    <div class="fact"><div class="k">Stay</div><div class="v">A large private villa in Seminyak plus a 4-bedroom spillover villa</div></div>
+    <div class="fact"><div class="k">Stay style</div><div class="v">Double-sharing rooms, cost split inside the group</div></div>
+    <div class="fact"><div class="k">Status</div><div class="v">Villa booked; the two party days are not yet booked</div></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Day by day</h2>
+  <p class="sub">The plan as the organizing committee has it today, line by line.</p>
+
+  <div class="card" id="day1">
+    <div class="day-head"><span class="dnum">DAY 1</span><h3>Monday 30 Nov - Arrive and settle in</h3><span class="tag">Seminyak</span></div>
+    <ul class="tl">
+      <li><b>Check-in from 1 PM</b> at the villa, with a meet-and-greet, welcome mimosas and welcome gifts.</li>
+      <li><b>Lunch</b> at a nearby cafe for whoever has arrived, then rest at the villa.</li>
+      <li><b>Late dinner and drinks at Revolver</b>, the Seminyak institution a short ride away.</li>
+      <li><b>After:</b> La Favela for the ones with energy left, or rest and recharge.</li>
+    </ul>
+    <div class="warn">Heads-up: several people land at Denpasar airport around 7:20 AM, and the host has declined early check-in. The group still needs a plan for that six-hour gap - likely luggage drop plus a cafe base.</div>
+  </div>
+
+  <div class="card" id="day2">
+    <div class="day-head"><span class="dnum">DAY 2</span><h3>Tuesday 1 Dec - Ubud adventure day</h3><span class="tag">Ubud</span></div>
+    <ul class="tl">
+      <li><b>Light breakfast at the villa</b> (being arranged), then leave at 11 AM - about an hour's ride to Ubud.</li>
+      <li><b>Main activity:</b> ATV rides or group river rafting - both proved popular in the signup.</li>
+      <li><b>After:</b> the Bali swing or the Cretya day club; temples for whoever opts in.</li>
+      <li><b>Late lunch</b> in Ubud - options still being scouted.</li>
+      <li><b>Back in Seminyak by 8-8:30 PM</b> for dinner at the villa and group games.</li>
+    </ul>
+    <div class="warn">Pack a change of clothes for this day. ATV and rafting still need pre-booking for a group this size.</div>
+  </div>
+
+  <div class="card" id="day3">
+    <div class="day-head"><span class="dnum">DAY 3</span><h3>Wednesday 2 Dec - FINNS or Luna beach club</h3><span class="tag">Canggu</span></div>
+    <ul class="tl">
+      <li><b>Brunch at Crate Cafe</b> on the way to Canggu.</li>
+      <li><b>Beach club, 1-2 PM to 8 PM:</b> FINNS Beach Club or its sister venue Luna - the package is not chosen yet (see costs).</li>
+      <li><b>Evening:</b> recovery mode, Grab back, food at a nearby cafe.</li>
+    </ul>
+    <div class="warn red">Nothing booked yet. The cheap packages lock in a before-1 PM arrival on what the itinerary itself calls a hangover day; the flexible whole-group cabana costs about four times more per person.</div>
+  </div>
+
+  <div class="card" id="day4">
+    <div class="day-head"><span class="dnum">DAY 4</span><h3>Thursday 3 Dec - Free day and Mexicola night</h3><span class="tag">Seminyak / Canggu</span></div>
+    <ul class="tl">
+      <li><b>Late, light breakfast at the villa.</b></li>
+      <li><b>Lunch 1 PM at Milk &amp; Madu Berawa</b> - a walk-in, so the group just shows up hungry.</li>
+      <li><b>Free afternoon:</b> Kuta beach, surf classes, shopping, or doing nothing by the pool.</li>
+      <li><b>Dinner 8 PM</b> - venue still blank in the plan.</li>
+      <li><b>Afterparty route:</b> Motel Mexicola, then Desa Kitsune, then Old Man's or Luigi's.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="day5">
+    <div class="day-head"><span class="dnum">DAY 5</span><h3>Friday 4 Dec - Savaya sunset</h3><span class="tag">Uluwatu</span></div>
+    <ul class="tl">
+      <li><b>Brunch at the villa</b> or nearby, free morning.</li>
+      <li><b>Leave 3-3:30 PM for Savaya</b>, the cliff-top club in Uluwatu - roughly 1.5 hours from Seminyak.</li>
+      <li><b>Table combo not chosen yet</b> - six options priced in the plan (see costs).</li>
+    </ul>
+    <div class="warn red">Nothing booked yet, and moving the whole group to Uluwatu and back needs its own transport plan - currently just "Grab or rent a scooty" in the notes.</div>
+  </div>
+
+  <div class="card" id="day6">
+    <div class="day-head"><span class="dnum">DAY 6</span><h3>Saturday 5 Dec - Checkout</h3><span class="tag">Seminyak</span></div>
+    <ul class="tl">
+      <li><b>Last brunch together</b>, timed around people's flights.</li>
+      <li><b>Checkout.</b> Late checkout was requested and declined, so plan to be out on time.</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="stay"><div class="wrap">
+  <h2>Where we stay</h2>
+  <p class="sub">The exact villa name and address stay inside the group chat; this public page keeps them out on purpose.</p>
+  <div class="card">
+    <ul class="tl">
+      <li><b>Main villa, Seminyak:</b> a private compound with about two dozen rooms across three floors, two pools and communal space.</li>
+      <li><b>Secondary 4-bedroom villa</b> nearby for the overflow.</li>
+      <li><b>Rooms:</b> mostly doubles; a couple of private rooms for couples. Final room allocation stays inside the group.</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="costs"><div class="wrap">
+  <h2>What it costs</h2>
+  <p class="sub">Indicative per-person figures from the group's planning sheet - the organizers' own estimates from their venue research, not live or independently verified venue quotes. Package choices are undecided. The group's own budget and payment details stay private.</p>
+
+  <div class="card">
+    <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin-bottom:8px">Day 3 choice - FINNS or Luna (per person, USD)</h3>
+    <table>
+      <tr><th>Package</th><th>Notes</th><th class="num">Per person</th></tr>
+      <tr><td>Party Lagoon Super Bed, 10 pax</td><td>Arrive before 1 PM, IDR 3M F&amp;B credit per bed</td><td class="num">$18</td></tr>
+      <tr><td>Party Lagoon Island bed, 8 pax</td><td>Arrive before 1 PM, IDR 1.5M credit</td><td class="num">$21</td></tr>
+      <tr><td>Luna Sunset Sofa Ultimate, 8 pax</td><td>Arrive anytime, IDR 5M credit, prosecco</td><td class="num">$44</td></tr>
+      <tr><td>FINNS Sunset Cabana, whole group</td><td>Flexible arrival, IDR 36M credit, concierge, queue skip</td><td class="num">$88</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin-bottom:8px">Day 5 choice - Savaya table combos (per person, USD incl. tax)</h3>
+    <table>
+      <tr><th>Combo</th><th>Notes</th><th class="num">Per person</th></tr>
+      <tr><td>A - 2x Bungalows</td><td>30 pax; the sheet's own value pick, $122 of it usable as F&amp;B credit</td><td class="num">$148</td></tr>
+      <tr><td>B - Main Deck Sofas A+B + Cube</td><td>32 pax across three areas</td><td class="num">$152</td></tr>
+      <tr><td>C - Bungalow + Main Deck A + Lounge</td><td>29 pax</td><td class="num">$156</td></tr>
+      <tr><td>D - Bungalow + Cabana</td><td>30 pax</td><td class="num">$176</td></tr>
+      <tr><td>E - Bungalow + Ocean Edge View</td><td>30 pax, best views</td><td class="num">$204</td></tr>
+      <tr><td>F - DJ Sofas + Dance Floor B</td><td>30 pax, closest to the DJ</td><td class="num">$222</td></tr>
+    </table>
+    <div class="warn">The organizers' basket math: that minimum spend works out to roughly 7 cocktails, a platter, a main and 2 snacks per person.</div>
+  </div>
+
+  <div class="card">
+    <h3 style="font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin-bottom:8px">Beyond the villa</h3>
+    <ul class="tl">
+      <li><b>Two party days:</b> about USD 166-310 depending on the two package choices.</li>
+      <li><b>Plus:</b> the villa share, food outside the villa, Ubud activities, transport and drinks - the group's own costings stay inside the group.</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="map"><div class="wrap">
+  <h2>The map</h2>
+  <p class="sub">Everything orbits Seminyak. Ubud is about an hour inland; Savaya is 1.5 hours south in Uluwatu.</p>
+  <div class="map-frame"><iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Seminyak,+Bali,+Indonesia&z=12&output=embed" title="Map of Seminyak, Bali"></iframe></div>
+  <ol class="venues">
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Revolver+Seminyak&query_place_id=ChIJ9fhCoBBH0i0R4h17JYdA484">Revolver</a> <span class="area">Seminyak - Day 1 late dinner</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=La+Favela&query_place_id=ChIJy7e5hxdH0i0RjAOjvEGFCTI">La Favela</a> <span class="area">Seminyak - Day 1 afterparty option</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Crate+Cafe&query_place_id=ChIJOaEQDnk40i0Rzhou4NcRx-w">Crate Cafe</a> <span class="area">Canggu - Day 3 brunch</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=FINNS+Beach+Club&query_place_id=ChIJSRrSTuNH0i0RX7GpKfK5k0k">FINNS Beach Club</a> <span class="area">Canggu - Day 3 main venue</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Milk+%26+Madu+Berawa&query_place_id=ChIJMY56QXlH0i0RjcgOQcZWDXU">Milk &amp; Madu Berawa</a> <span class="area">Canggu - Day 4 lunch</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Motel+Mexicola&query_place_id=ChIJJX97KhBH0i0Ri-IDkhm9w3s">Motel Mexicola</a> <span class="area">Seminyak - Day 4 afterparty</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Desa+Kitsun%C3%A9&query_place_id=ChIJ9UCFSPE50i0RVVADcFGCGXI">Desa Kitsune</a> <span class="area">Canggu - Day 4 afterparty stop 2</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Old+Man%27s&query_place_id=ChIJ21XBrn040i0Rjf7GPV4so38">Old Man's</a> <span class="area">Canggu - Day 4 late option</span></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Savaya+Bali&query_place_id=ChIJrV__rE5b0i0RXnKoLXZQDEk">Savaya</a> <span class="area">Uluwatu - Day 5 sunset</span></li>
+  </ol>
+</div></section>
+
+<section id="open"><div class="wrap">
+  <h2>Still open, as of 21 Oct</h2>
+  <p class="sub">The honest list of what is not yet decided or booked in the plan.</p>
+  <div class="card">
+    <ul class="tl">
+      <li><b>Party days unbooked:</b> neither the Day 3 beach club package nor the Day 5 Savaya table is chosen yet.</li>
+      <li><b>Day 4 dinner venue</b> is blank.</li>
+      <li><b>Breakfast plan</b> at the villa is unconfirmed; a local chef is being checked for one villa dinner.</li>
+      <li><b>Airport transfers</b> are still being worked out as landing times come in.</li>
+      <li><b>Early arrivals:</b> host declined early check-in and late checkout; the 7:20 AM landers on Day 1 need a holding plan.</li>
+      <li><b>Ubud pre-bookings</b> (ATV, rafting) not yet made; Ubud lunch options not scouted.</li>
+      <li><b>Transport</b> is "everyone downloads Grab or rents a scooty" - no group plan for the Uluwatu run yet.</li>
+    </ul>
+  </div>
+  <p style="margin-top:14px">
+    <span class="pill">Base: Seminyak</span><span class="pill">Day trip: Ubud</span><span class="pill">Finale: Uluwatu</span><span class="pill">Fly into: DPS (Denpasar)</span>
+  </p>
+</div></section>
+
+<footer><div class="wrap">
+  Compiled 21 October 2026 from the group's shared planning sheet. Venue prices shown are indicative and the package choices are undecided. Names, contact details, room pairings, headcounts and the group's budget and payment workings are deliberately left off this public page. Venues and their locations are public businesses; the exact villa address stays inside the group.
+</div></footer>
+
+</body>
+</html>
